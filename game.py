@@ -41,4 +41,8 @@ class Game:
             print (f'{wybor1} - {wybor2}')
             print ('Wygrał gracz')
             
-            
+A = Game() 
+num = 0
+while num < 3:
+	A.run(A.user_input(), A.computer_input())
+	num = num + 1        
